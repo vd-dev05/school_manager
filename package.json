@@ -1,0 +1,22 @@
+{
+  "name": "module-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build" : "npm install --prefix frontend && npm  install --prefix backend && npm run build --prefix frontend",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vd-dev05/todo_list_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vd-dev05/todo_list_test/issues"
+  },
+  "homepage": "https://github.com/vd-dev05/todo_list_test#readme"
+}
